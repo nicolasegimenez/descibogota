@@ -1,5 +1,5 @@
 ---
-title: AWE.SOME Heading
+title: DeSci Bogota
 type: about
 ---
 
