@@ -1,6 +1,7 @@
 ---
-title: DeSci Bogota
+title: ¿Qué es DeSci? 
 type: about
 ---
 
-Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt. Vivamus vitae erat vel tellus condimentum consectetur.
+Las ciencias descentralizadas basadas en blockchain son disciplinas de investigación o aplicaciones que aprovechan la tecnología de blockchain para descentralizar y asegurar la gestión de datos y procesos científicos. Utilizan la transparencia y la inmutabilidad de la cadena de bloques para mejorar la integridad y la colaboración en proyectos científicos, eliminando la necesidad de una autoridad central y ofreciendo un entorno más confiable y accesible para la comunidad científica.
+
