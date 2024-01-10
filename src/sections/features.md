@@ -14,7 +14,6 @@ Lugar: [Ubicación]
 - Tecnologías Descentralizadas
 - Investigación Colaborativa
 - Educación Científica Accesible
-
 **¿Qué puedes esperar?**
 - Ponencias de expertos en diversas áreas científicas.
 - Talleres interactivos para aprender haciendo.
