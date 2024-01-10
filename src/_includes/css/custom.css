@@ -15,18 +15,18 @@ html {
     {
         box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
         -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-        background-color: red;
+        background-color: #7E2553;
     }
 
     body::-webkit-scrollbar
     {
         width: 6px;
-        background-color: blue;
+        background-color: rgb(255, 0, 77);
     }
 
     body::-webkit-scrollbar-thumb
     {
-        background-color: blue;
+        background-color:#FF004D;
     }
 }
 
