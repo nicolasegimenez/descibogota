@@ -1,0 +1,31 @@
+tree -L 2 -I node_modules
+.
+├── favicons
+│   └── favicon-16x16.png
+├── LICENSE
+├── netlify.toml
+├── package.json
+├── package-lock.json
+├── public
+│   ├── css
+│   ├── img
+│   ├── imprint
+│   ├── index.html
+│   ├── privacy
+│   ├── _redirects
+│   └── robots.txt
+├── README.md
+├── src
+│   ├── css
+│   ├── _data
+│   ├── imprint.md
+│   ├── _includes
+│   ├── index.njk
+│   ├── _layouts
+│   ├── privacy.md
+│   ├── sections
+│   └── static
+├── tailwind.config.js
+└── tree.txt
+
+14 directories, 14 files
