@@ -1,6 +1,6 @@
 ---
 type: bogota
-title: "DeSci Bogotá: Explorando la Ciencia Descentralizada"
+title: "DeSci llega a Colombia: Exploremos juntos la Ciencia Descentralizada"
 
 ---
 

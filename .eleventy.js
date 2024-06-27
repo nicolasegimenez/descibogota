@@ -2,6 +2,7 @@ const htmlmin = require("html-minifier");
 const markdownIt = require('markdown-it');
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
+
 module.exports = function (eleventyConfig) {
   // PLUGINS
   eleventyConfig.addPlugin(pluginRss);
@@ -35,7 +36,6 @@ module.exports = function (eleventyConfig) {
 
   // STATIC FILES
   eleventyConfig.addPassthroughCopy({ './src/static/': '/' });
-
   // TRANSFORM -- Minify HTML Output
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
     if( outputPath && outputPath.endsWith(".html") ) {
