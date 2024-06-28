@@ -1,0 +1,39 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="preload" href="/css/page.css" as="style"><link rel="preconnect" href="https://unpkg.com/popper.js@1" as="script"><link rel="preconnect" href="https://unpkg.com/tippy.js@4" as="script"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="description" content="Sumate al Equipo."><meta name="author" content="2024"><meta name="robots" content="index,follow"><meta property="og:site_name" content="DeSci Colombia"><meta property="og:title" content="Sobre Nosotros"><meta property="og:description" content="Sumate al Equipo."><meta property="og:url" content="/about/"><meta name="twitter:card" content="summary"><meta name="theme-color" content="#ffffff"><title>Sobre Nosotros | 2024</title><link rel="stylesheet" href="/css/page.css"><link rel="stylesheet" href="/css/normalize.min.css"></head><body id="top" class="font-sans text-gray-800 bg-gray-100"><style>h1, h2, h3, h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }</style><header></header><main id="Sobre Nosotros" class="w-full flex flex-col justify-center items-center"><div class="self-center w-full sm:w-2/3 xl:w-1/2 px-4 sm:px:0 pt-16"><h1 class="font-bold uppercase tracking-widest text-gray-800 text-2xl mb-4">Sobre Nosotros</h1><div class="font-light text-black text-lg"><p>Somos el equipo que viene a poner la mejor onda en el mundo de la programación.</p></div></div></main><footer class="w-full flex flex-col sm:flex-row sm:justify-center text-lg tracking-wide px-4 sm:px-0 py-16"><div class="text-center pr-0 sm:pr-8 py-4"><ul class="list-none"><li><a class="text-gray-800 hover:text-purple-600 no-underline" href="https://twitter.com/descicolombia" target="_blank" rel="_noopener">Twitter</a></li><li><a class="text-gray-800 hover:text-purple-600 no-underline" href="https://linkedin.com/company/descicolombia" target="_blank" rel="_noopener">LinkedIn</a></li></ul></div><div class="h-px sm:h-auto w-1/2 sm:w-px bg-purple-600 mx-auto sm:mx-0"></div><div class="text-center px-8 py-4"><ul class="list-none"><li><a class="text-gray-800 hover:text-red-600 no-underline" href="/about">About</a></li><li><a class="text-gray-800 hover:text-red-600 no-underline" href="https://descicolombia.org/#features">Features</a></li></ul></div></footer><div class="w-full"><span class="block text-center text-gray-800 text-sm font-light">&copy; descicolombia</span></div><script src="https://unpkg.com/popper.js@1"></script><script src="https://unpkg.com/tippy.js@4"></script><script>function navToggle() {
+    let btn = document.getElementById('menuBtn');
+    let nav = document.getElementById('menu');
+
+    btn.classList.toggle('open');
+    nav.classList.toggle('flex');
+    nav.classList.toggle('hidden');
+  }
+
+  window.addEventListener('scroll', function () {
+    let btt = document.getElementById('btt');
+
+    if (window.scrollY >= 1080) {
+      btt.classList.remove('hidden');
+      btt.classList.add('block');
+    } else {
+      btt.classList.add('hidden');
+      btt.classList.remove('block');
+    }
+  });
+
+  console.log('Code/Design: ttntm.me'); // credit where credit is due
+
+  const template = document.getElementById('followTip');
+  const container = document.createElement('div');
+
+  container.appendChild(document.importNode(template.content, true));
+
+  tippy('#follow', {
+    content: container.innerHTML,
+    animation: 'scale',
+    duration: 250,
+    arrow: true,
+    placement: 'bottom',
+    interactive: true,
+  });</script></body></html>
