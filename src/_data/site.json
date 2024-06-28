@@ -1,17 +1,17 @@
 {
-  "baseURL": "https://awesome11ty.ttntm.me",
+  "baseURL": "https://descicolombia.org",
   "author": "2024",
-  "description": "¡El primer encuentro de ciencias descentralizadas en Colombia!",
-  "title": "DeSci Bogotá",
+  "description": "¡Sumate a la revolución de la cienia ahora en Colombia!",
+  "title": "DeSci Colombia",
   "language": "es",
   "social": [
     {
       "title": "Twitter",
-      "url": "https://twitter.com/#"
+      "url": "https://twitter.com/descicolombia"
     },
     {
       "title": "LinkedIn",
-      "url": "https://linkedin.com/company/#"
+      "url": "https://linkedin.com/company/descicolombia"
     }
   ]
 }
